@@ -22,8 +22,8 @@ class CustomDialog(tk.simpledialog.Dialog):		#class to create a custom dialog-bo
         return self.text
 
 def show_dialog():
-		some_text = "Your password is : "
-		CustomDialog(root, title="Password", text=some_text+password)
+	some_text = "Your password is : "
+	CustomDialog(root, title="Password", text=some_text+password)
 
 
 root = tk.Tk()	#start of window
