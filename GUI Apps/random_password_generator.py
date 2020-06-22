@@ -29,7 +29,7 @@ def show_dialog():
 root = tk.Tk()	#start of window
 #{
 root.geometry("300x400")
-root.title("First Python GUI App")
+root.title("Random Password Generator")
 
 mylabel = tk.Label(root,text="What will be the length of your password? ")
 mylabel.pack()
