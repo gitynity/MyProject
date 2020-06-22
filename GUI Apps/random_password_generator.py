@@ -79,7 +79,7 @@ def password_generator():
 			password+=random.choice(special)
 
 		if remaining and from_each_list:
-			for i in range(0,remaining+1):
+			for i in range(0,remaining):
 				password+=random.choice(string.ascii_uppercase+string.ascii_lowercase+string.digits+special)
 #	messagebox.showinfo("Password",password)
 	show_dialog()		
